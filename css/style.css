@@ -1,0 +1,27 @@
+@import url(./reset.css) screen;
+@import url(./variables.css) screen;
+@import url(./components/Card.css) screen;
+@import url(./components/SearchInput.css) screen;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+  font-family: 'Roboto';
+}
+
+main {
+  width: var(--main-width);
+  height: var(--main-height);
+  margin: 0 auto;
+  background-color: var(--background-color-main);
+  border: 0 2px 0 2px solid rgb(65, 65, 65, .08);
+}
+nav {
+  height: 25vh;
+  background-color: var(--background-color-header);
+  border-radius: 0 0 6vh 6vh;
+}
+.list {
+  display: flex;
+  flex-flow: row wrap ;
+}

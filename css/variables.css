@@ -1,0 +1,16 @@
+:root {
+  /* Cores de fundo */
+  --background-color-header: #0f0f0f;
+  --background-color-main: #fcfcfc;
+  --background-color-card: #fff;
+  /* Cores de borda */
+  --border-color-card: #c4c4c4;
+
+  /* Tamanhos e espaçamentos */
+  --main-width: 75vw;
+  --main-height: 100vh;
+  --card-width: 200px;
+  --card-height: 250px;
+
+  
+}

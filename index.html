@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/app.js" type="module" defer></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <title>VM chooser</title>
+</head>
+<body>
+  <main>
+    <nav>
+      <form class="input-row">
+        <div class="input-container"><label class="input-title" for="inputRAM">RAM</label><input id="inputRAM" name="inputRAM" type="text"></div>
+        <div class="input-container"><label class="input-title" for="inputCPU">vCPU</label><input id="inputCPU" name="inputCPU" type="text"></div>
+        <div class="input-container"><label class="input-title" for="inputOS">Sistema Operacional</label><input id="inputOS" name="inputOS" type="text"></div>
+        <!-- <button type="submit">Aperte aqui</button> -->
+      </form>
+    </nav>
+    <section class="list">
+      <div class="card">
+        <div class="card-header">
+          <div class="bullet hc">
+            <!-- <i class="lni lni-money-protection"></i> -->
+            <i class="lni lni-coin"></i>
+            <!-- <i class="lni lni-flag-alt"></i> -->
+            <p>High-cost choice</p>
+          </div>
+          <p class="card-title" props="meterName">B2ms</p>
+          <p class="" props="armSkuName">(Standard_B2ms)</p>
+        </div>
+        <div class="card-data">
+          <div>
+            <p class="info-title"> Memória RAM</p>
+            <p class="info-value" props="memoryInMB">65536</p>
+          </div>
+          <div>
+            <p class="info-title" >SO</p>
+            <p class="info-value" props="os">Linux</p>
+          </div>
+          <div>
+            <p class="info-title">vCPU Cores</p>
+            <p class="info-value" props="numberOfCores">8</p>
+          </div>
+        </div>        
+        <div class="card-footer">
+          <hr/>
+          <div class="card-value">
+            <p class="info-title" >Valor</p>
+            <p class="info-value" props="unitPricePerUnit">0,41334</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div> -->
+    </section>
+  </main>  
+</body>
+</html>
