@@ -1,9 +1,20 @@
 .input-row {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: end;
-  height: 90%;
+  height: 45%;
+  padding-top: 15%;
+}
+.input-row > button {
+  width: 50rem;
+  border: 1px solid #4e4e4e;
+  background-color: #181818;
+  border-radius: 10px;
+  outline: none;
+  color: #d3d3d3;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 .input-container {
   display: flex;
@@ -11,7 +22,7 @@
 }
 .input-container > input, .input-container > input:focus, .input-container > input:focus-visible {
   /* background-color: var(--background-color-header); */
-  border: 0;
+  /* border: 0; */
   outline: none;
   color: #d3d3d3;
   font-size: 1.2rem;
